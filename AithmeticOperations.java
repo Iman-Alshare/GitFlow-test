@@ -8,7 +8,6 @@ public class ArithmeticOperation{
             return Double.valueOf(div.toString()).intValue();
         return Double.valueOf(div.toString());
     }
-
         public static Object division(Object num1, Object num2) {
             Object div;
             System.out.println(Double.parseDouble(num1.toString())/Double.parseDouble(num2.toString()));
